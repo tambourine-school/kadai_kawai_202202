@@ -24,10 +24,6 @@ export default {
       { property: 'og:image', content: 'http://images/top_plan_ttl.jpg'},
       { name: 'twitter:card', content: 'summary_large_image'}
     ],
-    script: [
-      { type: 'text/javascript', async: '', src: 'https://www.google-analytics.com/plugins/ua/linkid.js'},
-      { type: 'text/javascript', async: '', src: 'https://www.google-analytics.com/analytics.js'},
-    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" }
