@@ -2,8 +2,8 @@
   <div>
     <AppHeader />
     
-   <div class="top">
-     <img src="/images/3_2.jpg" alt="">
+   <div>
+     <img src="/images/3_2.jpg" alt="" class="top">
    </div>
 
 <!--コンセプト-->
@@ -39,25 +39,26 @@
        <img src="/images/top_news_ttl.jpg" alt="">
      </div>
      <section>
-       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt="" class="news_img2"></nuxt-link>
        <h1>2022*</h1>
        <h2>2022.01.01</h2>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt="" class="news_img2"></nuxt-link>
        <h1>撮影会のおしらせ</h1>
        <h2>2021.09.09</h2>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt="" class="news_img2"></nuxt-link>
        <h1>ホームページリニューアルのおしらせ</h1>
        <h2>2021.07.27</h2>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/2022-270x200.jpg" alt="" class="news_img2"></nuxt-link>
        <h1>宇美八幡宮に安産祈願に行ってきました</h1>
        <h2>2021.07.20</h2>
      </section>
+
      <div class="btn_style">
        <nuxt-link to="" class="btn">おしらせ一覧へ</nuxt-link>
      </div>
@@ -111,8 +112,8 @@
      <div class="stay_img">
        <img src="/images/top_stay_ttl.jpg" alt="">
      </div>
-     <div class="stay_img2">
-       <img src="/images/top_stay_img_pc.jpg" alt="">
+     <div>
+       <img src="/images/top_stay_img_pc.jpg" alt="" class="stay_img2">
      </div>
      <h4>SORADOMARI</h4>
      <h5>“泊まれる写真屋さん”</h5>
@@ -173,26 +174,31 @@
      <div class="insta_img">
        <img src="/images/top_insta_ttl.jpg" alt="">
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_con">
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
      </div>
-     <div>
-       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt=""></nuxt-link>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
+     </div>
+     <div class="insta_box">
+       <nuxt-link to=""><img src="/images/270259345_134957148968740_8815768267127808531_nfull.jpg" alt="" class="insta_img2"></nuxt-link>
+     </div>
      </div>
      <div class="btn_insta">
      <nuxt-link to="" class="btn_insta2">More...</nuxt-link>
@@ -201,27 +207,27 @@
 
 <!--Googleマップ-->
    <div class="map">
-     <img src="/images/452AC94C-FD85-4CE5-A110-E74303596798.png" alt="">
+     <img src="/images/452AC94C-FD85-4CE5-A110-E74303596798.png" alt="" class="img_map">
    </div>
 
 <!--最後の画像-->
    <div class="end">
-     <div>
+     <div class="end_box">
        <nuxt-link to=""><img src="/images/btn01.jpg" alt="わたしたち"></nuxt-link>
      </div>
-     <div>
+     <div class="end_box">
        <nuxt-link to=""><img src="/images/btn01.jpg" alt="スタジオ"></nuxt-link>
      </div>
-     <div>
+     <div class="end_box">
        <nuxt-link to=""><img src="/images/btn01.jpg" alt="撮影"></nuxt-link>
      </div>
-     <div>
+     <div class="end_box">
        <nuxt-link to=""><img src="/images/btn01.jpg" alt="ご宿泊"></nuxt-link>
      </div>
-     <div>
+     <div class="end_box">
        <nuxt-link to=""><img src="/images/btn01.jpg" alt="お客様"></nuxt-link>
      </div>
-     <div>
+     <div class="end_box">
        <nuxt-link to=""><img src="/images/btn01.jpg" alt="おしらせ"></nuxt-link>
      </div>
    </div>
@@ -251,10 +257,94 @@ export default {
 
 <style scoped>
 
-::after, ::before {
-    box-sizing: border-box;
+p.h_img {
     text-align: center;
 }
+
+.top {
+    width: 100%;
+}
+
+p.txt {
+    text-align: center;
+}
+
+.news_img {
+    text-align: center;
+}
+
+img.news_img2 {
+    width: 48vw;
+}
+
+section {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 3px;
+}
+
+.h1, h1 {
+    font-size: 14px;
+    margin: 0px 0px 10px;
+}
+
+.btn_style {
+    text-align: center;
+    clear: both;
+}
+
+.plan_img {
+    text-align: center;
+}
+
+.stay_img {
+    text-align: center;
+}
+
+img.stay_img2 {
+    width: 100%;
+}
+
+.voice_img {
+    text-align: center;
+}
+
+.insta_img {
+    text-align: center;
+}
+
+img.insta_img2 {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+}
+
+.insta_box {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.btn_insta {
+    text-align: center;
+}
+
+img.img_map {
+    width: 100%;
+}
+
+.end_box {
+    display: block;
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+footer {
+  clear: both;
+}
+
 
 .hooper-slide {
   padding: 20px;

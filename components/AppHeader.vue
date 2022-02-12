@@ -1,8 +1,10 @@
 <template>
   <div>
     <header>
-      <div class="h_img">
-        <img src="/images/logo_sp.png" alt="">
+      <div>
+          <p class="h_img">
+            <img src="/images/logo_sp.png" alt="">
+          </p>
       </div>  
     </header>
   </div>
