@@ -9,3 +9,11 @@
     </header>
   </div>
 </template>
+
+<style scoped>
+
+p.h_img {
+    display: block;
+    text-align: center;
+}
+</style>

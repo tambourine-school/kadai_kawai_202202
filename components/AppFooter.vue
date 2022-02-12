@@ -6,3 +6,11 @@
       </footer>
   </div>
 </template>
+
+<style scoped>
+
+footer {
+  display: none;
+}
+
+</style>

@@ -71,35 +71,35 @@
        <img src="/images/top_plan_ttl.jpg" alt="">
      </div>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>マタニティフォト</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>赤ちゃん</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>お宮参り</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>1才おたんじょうび</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>七五三</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>入園・入学</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>バースデー</h3>
      </section>
      <section>
-       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt=""></nuxt-link>
+       <nuxt-link to=""><img src="/images/top_plan_img01.jpg" alt="" class="plan_img2"></nuxt-link>
        <h3>家族写真</h3>
      </section>
      <div class="btn_style">
@@ -213,22 +213,22 @@
 <!--最後の画像-->
    <div class="end">
      <div class="end_box">
-       <nuxt-link to=""><img src="/images/btn01.jpg" alt="わたしたち"></nuxt-link>
+       <nuxt-link to=""><img src="/images/btn01.jpg" alt="わたしたち" class="end_img"></nuxt-link>
      </div>
      <div class="end_box">
-       <nuxt-link to=""><img src="/images/btn01.jpg" alt="スタジオ"></nuxt-link>
+       <nuxt-link to=""><img src="/images/btn01.jpg" alt="スタジオ" class="end_img"></nuxt-link>
      </div>
      <div class="end_box">
-       <nuxt-link to=""><img src="/images/btn01.jpg" alt="撮影"></nuxt-link>
+       <nuxt-link to=""><img src="/images/btn01.jpg" alt="撮影" class="end_img"></nuxt-link>
      </div>
      <div class="end_box">
-       <nuxt-link to=""><img src="/images/btn01.jpg" alt="ご宿泊"></nuxt-link>
+       <nuxt-link to=""><img src="/images/btn01.jpg" alt="ご宿泊" class="end_img"></nuxt-link>
      </div>
      <div class="end_box">
-       <nuxt-link to=""><img src="/images/btn01.jpg" alt="お客様"></nuxt-link>
+       <nuxt-link to=""><img src="/images/btn01.jpg" alt="お客様" class="end_img"></nuxt-link>
      </div>
      <div class="end_box">
-       <nuxt-link to=""><img src="/images/btn01.jpg" alt="おしらせ"></nuxt-link>
+       <nuxt-link to=""><img src="/images/btn01.jpg" alt="おしらせ" class="end_img"></nuxt-link>
      </div>
    </div>
 
@@ -257,9 +257,6 @@ export default {
 
 <style scoped>
 
-p.h_img {
-    text-align: center;
-}
 
 .top {
     width: 100%;
@@ -271,6 +268,7 @@ p.txt {
 
 .news_img {
     text-align: center;
+    width: 100%;
 }
 
 img.news_img2 {
@@ -284,8 +282,18 @@ section {
     margin: 3px;
 }
 
-.h1, h1 {
-    font-size: 14px;
+img.plan_img2 {
+    width: 48vw;
+}
+
+
+h3 {
+    font-size: 13px;
+    margin: 0px 0px 10px
+}
+
+h1 {
+    font-size: 8px;
     margin: 0px 0px 10px;
 }
 
@@ -315,19 +323,20 @@ img.stay_img2 {
 }
 
 img.insta_img2 {
-    width: 175px;
-    height: 175px;
+    width: 48vw;
+    height: 48vw;
     object-fit: cover;
 }
 
 .insta_box {
     float: left;
     list-style: none;
-    margin-right: 30px;
+    margin: 3px;
 }
 
 .btn_insta {
     text-align: center;
+    clear: both;
 }
 
 img.img_map {
@@ -338,11 +347,11 @@ img.img_map {
     display: block;
     float: left;
     list-style: none;
-    margin-right: 30px;
+    margin: 3px;
 }
 
-footer {
-  clear: both;
+img.end_img {
+    width: 48vw;
 }
 
 
